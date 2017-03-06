@@ -1,0 +1,150 @@
+<html>
+<head>
+	<title>index.html</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/index-30a0f22c97.css">
+</head>
+<body>
+<!-- music -->
+    <div class="musicdiv">
+                <div id="audio_btn" class="turn-off rotate" >
+                    <audio loop="" src="http://res1.eqh5.com/group3/M00/7E/E0/yq0KZVXS7naAUz2AAAarwAcCdyw250.mp3" id="media" autoplay="" preload="auto"></audio>
+                </div>
+    </div>
+	 <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-slide1">
+                <div ></div>
+            <!-- 个人简历 -->
+            <div class="person">
+                    <img class="ani person" src="../images/resume.png" swiper-animate-effect="rotateIn" >
+            </div>
+            <!-- 应聘职位 -->
+            <div class="ani job" swiper-animate-effect="fadeInUp" swiper-animate-delay="1.3s" swiper-animate-duration="0.3s">
+                <span>—前端应用开发工程师—</span>
+            </div>
+            <div></div>
+           <div class="next">^</div>
+            <!-- 有点单调，加几个星星 -->
+            <img class="ani start" src="../images/start.png" swiper-animate-effect="flash" swiper-animate-duration="1.0s">
+            <img class="ani start" swiper-animate-effect="flash" swiper-animate-duration="1.0s" src="../images/start.png">
+            </div>
+            <div class="swiper-slide swiper-slide2">
+            <!-- 个人信息 -->
+                <div class="info">
+                <img class="left" src="../images/left.png">
+                <h1 >个人信息</h1>
+                </div>
+                <img class="me" src="../images/person.png">
+                <p>姓名：歪猴</p>
+                <p>应聘职位：前端应用开发工程师</p>
+                <p>专业：电子信息工程</p> 
+                <p>学历：本科</p>
+                <p>工作经验：2年</p>
+            </div> 
+            <div class="swiper-slide swiper-slide3">
+                <div class="info">
+                    <img class="left" src="../images/2.png">
+                    <h1 >专业技能</h1>
+                </div>
+                <div class="skill no1">DIV+CSS</div>
+                <div class="skill no2">jQuery</div>
+                <div class="skill no3">angularjs</div>
+                <div class="skill no4">nodejs</div>
+                <div class="skill no5">webapp</div>
+                <div class="skill no6">vue</div>
+            </div> 
+            <!-- 第四页 -->
+            <div class="swiper-slide swiper-slide4">
+                <div class="ani info" swiper-animate-effect="bounceInLeft">
+                    <img class="left" src="../images/3.png">
+                    <h1 >工作经验</h1>
+                </div>
+                <div class="ani logo" swiper-animate-effect="bounceInUp"
+                    swiper-animate-duration="1.2s" swiper-animate-delay="1.0s">
+                    <img src="../images/companylogo.png">
+                    <span>四川得一科技有限公司</span>
+                </div>
+                <div class="ani txt" swiper-animate-effect="bounceInRight"
+                    swiper-animate-duration="1.2s" swiper-animate-delay="3.2s">
+                    <span>职位：前端工程师</span>
+                </div>
+                <div class="ani txt" swiper-animate-effect="bounceInLeft"
+                    swiper-animate-duration="1.2s" swiper-animate-delay="4.4s">
+                    <span>职责：颜值担当</span>
+                </div>
+            </div>
+            <!-- 项目经验 -->
+            <div class="swiper-slide swiper-slide5">
+                <div class="info">
+                    <img class="left" src="../images/4.png">
+                    <h1 >项目经验</h1>
+                </div>
+                <div class="ani txt pro" swiper-animate-effect="bounceInRight"
+                    swiper-animate-duration="1.2s" swiper-animate-delay="0.2s">
+                    <p>项目名称：留言版</p>
+                    <p>负责模块：啦啦啦嗯嗯嗯恩恩</p>
+                </div>
+                <div class="ani txt pro" swiper-animate-effect="bounceInLeft"
+                    swiper-animate-duration="1.2s" swiper-animate-delay="1.4s">
+                    <p>项目名称：项目二</p>
+                    <p>负责模块：哈哈哈啦啦啦嗯嗯嗯恩恩</p>
+                </div>
+            </div> 
+            <!-- 联系方式 -->
+            <div class="swiper-slide swiper-slide6">
+                <div class="info">
+                    <img class="left" src="../images/5.png">
+                    <h1 >联系我吧</h1>
+                </div>
+                <div class="mycode">
+                    <img src="../images/mycode.jpg">
+                    <p>TEL:15008495964</p>
+                    <P>邮箱:waihouyang@google.com</P>
+                    <button id="seemore">查看更多</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="mainContent">
+    	<div class="wrap" id="wrap">
+            <!-- TAB选项卡部分 -->
+            <div class="zx-tab"> 
+    <ul class="zx-tab-head"> 
+        <li class="active exp">经历</li>
+        <li class="pro">项目</li>
+        <li class="skills">技能</li>
+        <li class="me">我</li>
+    </ul>
+    <div class="zx-tab-cont"> 
+        <div class="zx-tab-cont-item exp active"> 
+            <div class="zx-cont-item-det ">
+                <button id="scan">scan二维码</button>
+                <button id="photo">照片</button>
+                <button onclick="netwokeType()">网络</button>
+            </div>
+        </div>
+        <div class="zx-tab-cont-item pro"> 
+            <div class="zx-cont-item-det">
+                项目
+            </div>
+        </div>
+        <div class="zx-tab-cont-item skills"> 
+            <div class="zx-cont-item-det">
+                技能
+            </div>
+        </div>
+        <div class="zx-tab-cont-item me"> 
+            <div class="zx-cont-item-det">
+                我
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+    </div>
+	<script type="text/javascript"  src="js/index-e9951d6e18.js"></script>
+</body>
+</html>
