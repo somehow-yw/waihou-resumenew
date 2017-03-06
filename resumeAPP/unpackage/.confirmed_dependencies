@@ -1,0 +1,26 @@
+{
+	"index.html": {
+		"resources": [
+			"css/index.css",
+			"images/lan.png",
+			"images/blue.png",
+			"images/red.png",
+			"images/tu.png",
+			"images/yellow.png",
+			"images/starts.jpg",
+			"images/music.png",
+			"js/index.js",
+			"images/green.png",
+			"images/resume.png",
+			"images/companylogo.png",
+			"images/5.png",
+			"images/2.png",
+			"images/left.png",
+			"images/3.png",
+			"images/4.png",
+			"images/mycode.jpg",
+			"images/person.png",
+			"images/start.png"
+		]
+	}
+}
